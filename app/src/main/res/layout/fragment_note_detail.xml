@@ -4,14 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="es.telefonica.talentum.noteapp.NoteDetailFragment"
-    android:background="@android:color/holo_orange_dark"
+    android:background="#819FF7"
     android:padding="5dp"
     >
-
     <EditText
         android:id="@+id/fragment_note_detail_title_text"
         android:hint="Enter note title"
-        android:background="@android:color/darker_gray"
+        android:background="#5858FA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -20,13 +19,10 @@
         android:layout_below="@id/fragment_note_detail_title_text"
         android:id="@+id/fragment_note_detail_description_text"
         android:hint="Enter note description"
-        android:background="@color/colorPrimaryDark"
+        android:background="#0040FF"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="top|left"
         android:layout_marginTop="10dp"
         />
-
-    
-
 </RelativeLayout>

@@ -31,6 +31,10 @@ public class Notes implements Enumerable<Note> {
 
     }
 
+    public Note get(int i){
+        return noteList.get(i);
+    }
+
     @Override
     public List<Note> getAll() {
         return noteList;
